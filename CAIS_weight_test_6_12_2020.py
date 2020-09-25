@@ -50,10 +50,10 @@ CAAI is calculated in the following way:
 ####################################################################################
 
 # SQL Connection Information
-Database = 'PFAMphylostratigraphy'
-User = 'catherineweibel'
-Host = '127.0.0.1'
-Password ='savemefromsandhu'
+Database = ''
+User = ''
+Host = ''
+Password =''
 
 # The tables where the coding sequences are stored
 # ** These are stored as a list so that we can iterate through them **
