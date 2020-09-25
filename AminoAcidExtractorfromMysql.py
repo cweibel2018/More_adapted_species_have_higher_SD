@@ -10,10 +10,10 @@ from itertools import chain
 
 
 def LoadConnection():
-	Database='PFAMphylostratigraphy'
-	user= 'catherineweibel'
-	host= '127.0.0.1'
-	password = 'savemefromsandhu'
+	Database='Database'
+	user= 'username'
+	host= 'DNS'
+	password = password'
 	return Database, user,host,password
 
 #################################Write the heading#######################
@@ -23,7 +23,7 @@ with open("AA_for_linearmodeling_species_differences.txt", "a") as f1:
 f1.close()	
 
 ##################connect to MYSQL##################################
-cnx = mysql.connector.connect(user = 'catherineweibel',password= 'savemefromsandhu' ,host='127.0.0.1' , database= 'PFAMphylostratigraphy')
+cnx = mysql.connector.connect(user = 'user',password= 'passwrd' ,host='DNS' , database= 'PFAMphylostratigraphy')
 
 mycursor = cnx.cursor(buffered = True)
 
